@@ -90,7 +90,7 @@ sub dns_over_https {
 
 my $ns = new Net::DNS::Nameserver(
     LocalAddr    => $listen,
-    LocalPort    => 53,
+    LocalPort    => 8053,
     ReplyHandler => \&reply_handler,
     Verbose      => 0
     ) || die "couldn't create nameserver object\n";

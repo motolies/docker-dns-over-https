@@ -1,2 +1,2 @@
-docker build --rm=true --force-rm=true -t ventz/dns-over-https container
+docker build --rm=true --force-rm=true -t knw1234/dns-over-https container
 
